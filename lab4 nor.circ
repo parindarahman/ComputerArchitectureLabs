@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1">
+    <tool name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </tool>
+  </lib>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4"/>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(180,770)" to="(180,840)"/>
+    <wire from="(200,120)" to="(200,130)"/>
+    <wire from="(380,540)" to="(380,550)"/>
+    <wire from="(340,260)" to="(340,270)"/>
+    <wire from="(340,740)" to="(340,750)"/>
+    <wire from="(330,810)" to="(330,820)"/>
+    <wire from="(530,460)" to="(570,460)"/>
+    <wire from="(40,310)" to="(340,310)"/>
+    <wire from="(820,530)" to="(820,620)"/>
+    <wire from="(440,360)" to="(440,390)"/>
+    <wire from="(640,710)" to="(750,710)"/>
+    <wire from="(240,100)" to="(270,100)"/>
+    <wire from="(210,170)" to="(210,460)"/>
+    <wire from="(390,810)" to="(420,810)"/>
+    <wire from="(210,460)" to="(210,690)"/>
+    <wire from="(340,680)" to="(370,680)"/>
+    <wire from="(400,270)" to="(420,270)"/>
+    <wire from="(410,600)" to="(430,600)"/>
+    <wire from="(480,430)" to="(500,430)"/>
+    <wire from="(140,420)" to="(480,420)"/>
+    <wire from="(270,840)" to="(740,840)"/>
+    <wire from="(430,710)" to="(440,710)"/>
+    <wire from="(180,110)" to="(180,350)"/>
+    <wire from="(540,420)" to="(550,420)"/>
+    <wire from="(550,600)" to="(550,610)"/>
+    <wire from="(570,700)" to="(570,710)"/>
+    <wire from="(180,350)" to="(180,610)"/>
+    <wire from="(150,120)" to="(150,130)"/>
+    <wire from="(330,220)" to="(330,230)"/>
+    <wire from="(340,310)" to="(340,320)"/>
+    <wire from="(340,390)" to="(340,400)"/>
+    <wire from="(320,770)" to="(320,780)"/>
+    <wire from="(110,590)" to="(410,590)"/>
+    <wire from="(480,720)" to="(480,800)"/>
+    <wire from="(420,240)" to="(460,240)"/>
+    <wire from="(480,700)" to="(520,700)"/>
+    <wire from="(640,450)" to="(640,490)"/>
+    <wire from="(110,100)" to="(140,100)"/>
+    <wire from="(180,610)" to="(180,770)"/>
+    <wire from="(400,310)" to="(430,310)"/>
+    <wire from="(380,770)" to="(410,770)"/>
+    <wire from="(340,730)" to="(370,730)"/>
+    <wire from="(340,260)" to="(360,260)"/>
+    <wire from="(180,70)" to="(180,110)"/>
+    <wire from="(570,720)" to="(600,720)"/>
+    <wire from="(470,470)" to="(490,470)"/>
+    <wire from="(480,640)" to="(500,640)"/>
+    <wire from="(260,110)" to="(270,110)"/>
+    <wire from="(710,240)" to="(720,240)"/>
+    <wire from="(670,610)" to="(670,620)"/>
+    <wire from="(610,230)" to="(610,240)"/>
+    <wire from="(960,500)" to="(960,510)"/>
+    <wire from="(410,590)" to="(410,600)"/>
+    <wire from="(480,420)" to="(480,430)"/>
+    <wire from="(180,610)" to="(550,610)"/>
+    <wire from="(330,350)" to="(330,360)"/>
+    <wire from="(380,480)" to="(380,490)"/>
+    <wire from="(340,680)" to="(340,690)"/>
+    <wire from="(210,690)" to="(210,840)"/>
+    <wire from="(240,740)" to="(340,740)"/>
+    <wire from="(1020,510)" to="(1040,510)"/>
+    <wire from="(550,440)" to="(570,440)"/>
+    <wire from="(550,600)" to="(570,600)"/>
+    <wire from="(640,490)" to="(850,490)"/>
+    <wire from="(410,690)" to="(440,690)"/>
+    <wire from="(340,700)" to="(370,700)"/>
+    <wire from="(440,490)" to="(460,490)"/>
+    <wire from="(410,790)" to="(420,790)"/>
+    <wire from="(140,120)" to="(150,120)"/>
+    <wire from="(60,120)" to="(70,120)"/>
+    <wire from="(180,770)" to="(320,770)"/>
+    <wire from="(140,170)" to="(140,420)"/>
+    <wire from="(740,620)" to="(820,620)"/>
+    <wire from="(210,460)" to="(470,460)"/>
+    <wire from="(270,810)" to="(330,810)"/>
+    <wire from="(850,520)" to="(850,530)"/>
+    <wire from="(130,120)" to="(130,130)"/>
+    <wire from="(270,540)" to="(270,810)"/>
+    <wire from="(380,530)" to="(380,540)"/>
+    <wire from="(470,460)" to="(470,470)"/>
+    <wire from="(480,630)" to="(480,640)"/>
+    <wire from="(270,100)" to="(270,110)"/>
+    <wire from="(340,730)" to="(340,740)"/>
+    <wire from="(330,800)" to="(330,810)"/>
+    <wire from="(280,110)" to="(280,130)"/>
+    <wire from="(140,490)" to="(380,490)"/>
+    <wire from="(40,220)" to="(40,310)"/>
+    <wire from="(240,70)" to="(240,100)"/>
+    <wire from="(240,390)" to="(340,390)"/>
+    <wire from="(480,720)" to="(520,720)"/>
+    <wire from="(180,110)" to="(210,110)"/>
+    <wire from="(960,500)" to="(980,500)"/>
+    <wire from="(610,230)" to="(630,230)"/>
+    <wire from="(330,340)" to="(360,340)"/>
+    <wire from="(240,740)" to="(240,840)"/>
+    <wire from="(340,750)" to="(370,750)"/>
+    <wire from="(340,280)" to="(360,280)"/>
+    <wire from="(380,480)" to="(400,480)"/>
+    <wire from="(440,540)" to="(460,540)"/>
+    <wire from="(490,350)" to="(510,350)"/>
+    <wire from="(460,800)" to="(480,800)"/>
+    <wire from="(270,170)" to="(270,540)"/>
+    <wire from="(540,630)" to="(670,630)"/>
+    <wire from="(110,590)" to="(110,840)"/>
+    <wire from="(670,620)" to="(680,620)"/>
+    <wire from="(640,590)" to="(650,590)"/>
+    <wire from="(670,630)" to="(670,640)"/>
+    <wire from="(850,490)" to="(850,500)"/>
+    <wire from="(80,120)" to="(80,130)"/>
+    <wire from="(330,210)" to="(330,220)"/>
+    <wire from="(340,300)" to="(340,310)"/>
+    <wire from="(340,380)" to="(340,390)"/>
+    <wire from="(320,760)" to="(320,770)"/>
+    <wire from="(670,240)" to="(710,240)"/>
+    <wire from="(410,770)" to="(410,790)"/>
+    <wire from="(850,500)" to="(890,500)"/>
+    <wire from="(140,100)" to="(140,120)"/>
+    <wire from="(270,540)" to="(380,540)"/>
+    <wire from="(430,310)" to="(430,340)"/>
+    <wire from="(430,710)" to="(430,740)"/>
+    <wire from="(140,490)" to="(140,840)"/>
+    <wire from="(110,70)" to="(110,100)"/>
+    <wire from="(500,230)" to="(540,230)"/>
+    <wire from="(70,170)" to="(70,840)"/>
+    <wire from="(40,100)" to="(70,100)"/>
+    <wire from="(550,620)" to="(570,620)"/>
+    <wire from="(510,250)" to="(540,250)"/>
+    <wire from="(330,800)" to="(350,800)"/>
+    <wire from="(430,340)" to="(450,340)"/>
+    <wire from="(580,240)" to="(610,240)"/>
+    <wire from="(380,530)" to="(400,530)"/>
+    <wire from="(930,510)" to="(960,510)"/>
+    <wire from="(240,630)" to="(240,740)"/>
+    <wire from="(440,360)" to="(450,360)"/>
+    <wire from="(270,110)" to="(280,110)"/>
+    <wire from="(200,120)" to="(210,120)"/>
+    <wire from="(390,220)" to="(460,220)"/>
+    <wire from="(110,270)" to="(110,590)"/>
+    <wire from="(140,420)" to="(140,490)"/>
+    <wire from="(410,580)" to="(410,590)"/>
+    <wire from="(480,410)" to="(480,420)"/>
+    <wire from="(610,610)" to="(670,610)"/>
+    <wire from="(340,270)" to="(340,280)"/>
+    <wire from="(330,340)" to="(330,350)"/>
+    <wire from="(260,110)" to="(260,130)"/>
+    <wire from="(960,520)" to="(980,520)"/>
+    <wire from="(610,250)" to="(630,250)"/>
+    <wire from="(330,360)" to="(360,360)"/>
+    <wire from="(180,350)" to="(330,350)"/>
+    <wire from="(330,210)" to="(350,210)"/>
+    <wire from="(340,300)" to="(360,300)"/>
+    <wire from="(340,380)" to="(360,380)"/>
+    <wire from="(320,760)" to="(340,760)"/>
+    <wire from="(380,500)" to="(400,500)"/>
+    <wire from="(110,100)" to="(110,270)"/>
+    <wire from="(460,500)" to="(480,500)"/>
+    <wire from="(820,530)" to="(850,530)"/>
+    <wire from="(70,120)" to="(80,120)"/>
+    <wire from="(670,640)" to="(680,640)"/>
+    <wire from="(550,610)" to="(550,620)"/>
+    <wire from="(570,710)" to="(570,720)"/>
+    <wire from="(520,510)" to="(890,510)"/>
+    <wire from="(220,120)" to="(220,130)"/>
+    <wire from="(210,110)" to="(210,120)"/>
+    <wire from="(60,120)" to="(60,130)"/>
+    <wire from="(470,450)" to="(470,460)"/>
+    <wire from="(480,620)" to="(480,630)"/>
+    <wire from="(470,590)" to="(640,590)"/>
+    <wire from="(460,520)" to="(460,540)"/>
+    <wire from="(850,520)" to="(890,520)"/>
+    <wire from="(420,240)" to="(420,270)"/>
+    <wire from="(270,810)" to="(270,840)"/>
+    <wire from="(40,220)" to="(330,220)"/>
+    <wire from="(400,390)" to="(440,390)"/>
+    <wire from="(240,100)" to="(240,390)"/>
+    <wire from="(330,820)" to="(350,820)"/>
+    <wire from="(380,550)" to="(400,550)"/>
+    <wire from="(410,580)" to="(430,580)"/>
+    <wire from="(410,740)" to="(430,740)"/>
+    <wire from="(480,410)" to="(500,410)"/>
+    <wire from="(610,450)" to="(640,450)"/>
+    <wire from="(240,390)" to="(240,630)"/>
+    <wire from="(210,690)" to="(340,690)"/>
+    <wire from="(610,240)" to="(610,250)"/>
+    <wire from="(640,590)" to="(640,600)"/>
+    <wire from="(960,510)" to="(960,520)"/>
+    <wire from="(400,350)" to="(450,350)"/>
+    <wire from="(460,490)" to="(460,500)"/>
+    <wire from="(380,490)" to="(380,500)"/>
+    <wire from="(340,690)" to="(340,700)"/>
+    <wire from="(640,600)" to="(680,600)"/>
+    <wire from="(40,310)" to="(40,840)"/>
+    <wire from="(240,630)" to="(480,630)"/>
+    <wire from="(70,100)" to="(70,120)"/>
+    <wire from="(110,270)" to="(340,270)"/>
+    <wire from="(550,420)" to="(550,440)"/>
+    <wire from="(40,70)" to="(40,100)"/>
+    <wire from="(510,250)" to="(510,350)"/>
+    <wire from="(330,230)" to="(350,230)"/>
+    <wire from="(340,320)" to="(360,320)"/>
+    <wire from="(340,400)" to="(360,400)"/>
+    <wire from="(320,780)" to="(340,780)"/>
+    <wire from="(570,700)" to="(600,700)"/>
+    <wire from="(470,450)" to="(490,450)"/>
+    <wire from="(460,520)" to="(480,520)"/>
+    <wire from="(480,620)" to="(500,620)"/>
+    <wire from="(130,120)" to="(140,120)"/>
+    <wire from="(210,120)" to="(220,120)"/>
+    <wire from="(40,100)" to="(40,220)"/>
+    <wire from="(560,710)" to="(570,710)"/>
+    <comp lib="6" loc="(379,834)" name="Text">
+      <a name="text" val="YZ'"/>
+    </comp>
+    <comp lib="1" loc="(210,170)" name="NOR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(490,350)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(70,170)" name="NOR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(390,810)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(610,610)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(480,700)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(470,590)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(757,731)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="6" loc="(616,207)" name="Text">
+      <a name="text" val="WX+WYZ"/>
+    </comp>
+    <comp lib="1" loc="(560,710)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(410,690)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(440,540)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(403,663)" name="Text">
+      <a name="text" val="Y'Z"/>
+    </comp>
+    <comp lib="6" loc="(848,460)" name="Text">
+      <a name="text" val="X'Y'+X'Z'+XYZ"/>
+    </comp>
+    <comp lib="0" loc="(180,70)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(520,510)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(750,710)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(270,170)" name="NOR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(540,420)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(570,407)" name="Text">
+      <a name="text" val="X'Y'"/>
+    </comp>
+    <comp lib="1" loc="(640,710)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(530,460)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(400,270)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(140,170)" name="NOR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(1092,82)" name="Text">
+      <a name="text" val="PARINDA RAHMAN-1931804042"/>
+    </comp>
+    <comp lib="0" loc="(710,240)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(523,674)" name="Text">
+      <a name="text" val="XYZ"/>
+    </comp>
+    <comp lib="1" loc="(610,450)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(110,70)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(930,510)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(580,240)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(531,531)" name="Text">
+      <a name="text" val="X'Z'"/>
+    </comp>
+    <comp lib="1" loc="(380,770)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(387,186)" name="Text">
+      <a name="text" val="WX"/>
+    </comp>
+    <comp lib="6" loc="(101,44)" name="Text">
+      <a name="text" val="X"/>
+    </comp>
+    <comp lib="1" loc="(440,490)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1040,510)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(659,747)" name="Text">
+      <a name="text" val="Y'Z+YZ'"/>
+    </comp>
+    <comp lib="6" loc="(779,844)" name="Text">
+      <a name="text" val="D"/>
+    </comp>
+    <comp lib="1" loc="(390,220)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(400,390)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(670,240)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(721,212)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="1" loc="(740,620)" name="NOR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(460,800)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(400,350)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(540,630)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(166,40)" name="Text">
+      <a name="text" val="Y"/>
+    </comp>
+    <comp lib="6" loc="(1052,490)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="6" loc="(414,412)" name="Text">
+      <a name="text" val="WYZ"/>
+    </comp>
+    <comp lib="6" loc="(30,35)" name="Text">
+      <a name="text" val="W"/>
+    </comp>
+    <comp lib="1" loc="(500,230)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(240,70)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(740,840)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(1020,510)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(885,560)" name="Text">
+      <a name="text" val="X'Y'+X'Z'+XYZ"/>
+    </comp>
+    <comp lib="1" loc="(410,740)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(40,70)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(230,38)" name="Text">
+      <a name="text" val="Z"/>
+    </comp>
+    <comp lib="1" loc="(400,310)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(587,864)" name="Text">
+      <a name="text" val="Z'"/>
+    </comp>
+  </circuit>
+</project>
